@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("ভাব")==0 || body.indexOf("vab")==0 || body.indexOf("এটিটিউড")==0 || body.indexOf("attitude")==0 || body.indexOf("pagol")==0 || body.indexOf("🐸")==0 || body.indexOf("pabna")==0 || body.indexOf("bose")==0 || body.indexOf("admin")==0 || body.indexOf("bye")==0) {
 		var msg = {
-				body: "FARABI",
+				body: "মমিনুর",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
