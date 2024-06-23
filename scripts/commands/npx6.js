@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("😰")==0 || body.indexOf("😞")==0 || body.indexOf("💔")==0 || body.indexOf("bkup")==0 || body.indexOf("breakup")==0 || body.indexOf("😢")==0 || body.indexOf("😰")==0 || body.indexOf("plz")==0 || body.indexOf("jaw")==0 || body.indexOf("🥹")==0) {
 		var msg = {
-				body: "💥FARABI💥",
+				body: "💥মমিনুর💥",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
