@@ -19,14 +19,14 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/jJbMYZF.mp4',
+      'https://i.postimg.cc/yxXDK3xw/images-26.jpg',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("maya")==0 || body.indexOf("maiya")==0 || body.indexOf("😭")==0 || body.indexOf("মায়া")==0 || body.indexOf("😭")==0 || body.indexOf("Maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0 || body.indexOf("maya")==0) {
+	if (body.indexOf("আসসালামুআলাইকুম")==0 || body.indexOf("আসসালামু আলাইকুম")==0 || body.indexOf("assalamulaikum")==0 || body.indexOf("assalamu laikum")==0 || body.indexOf("সালাম")==0 || body.indexOf("আসসালামুআলাইকুম")==0 || body.indexOf("assalamulaikum")==0 || body.indexOf("a,salamulaikum")==0 || body.indexOf("আসসালামুআলাইকুম")==0 || body.indexOf("আসালা")==0) {
 		var msg = {
-				body: "❤️‍🔥 Farabi💥❤️‍🔥",
+				body: "╭•┄┅════❁🌺❁════┅┄•╮\nওয়ালাইকুম সালাম-!!🖤💫\n╰•┄┅════❁🌺❁════┅┄•╯",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
