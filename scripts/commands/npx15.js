@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("😘")==0 || body.indexOf("😘")==0 || body.indexOf("😘")==0 || body.indexOf("😘")==0 || body.indexOf("good night")==0 || body.indexOf("good morning")==0 || body.indexOf("bye")==0 || body.indexOf("😘")==0 || body.indexOf("😘")==0 || body.indexOf("gd n8")==0) {
 		var msg = {
-				body: "❤️‍🔥💥 FARABI 💥❤️‍🔥"
+				body: "❤️‍🔥💥 মমিনুর 💥❤️‍🔥"
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
